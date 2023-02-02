@@ -10,7 +10,7 @@
   }
   
   body {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    background: url('assets/wedding-landing-background-white.png') repeat center;
     font-family: 'Libre Baskerville';
     font-size: 1rem;
     line-height: 1.8;
@@ -41,7 +41,7 @@
   /* == Header Styles == */
   
   .cover {
-    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') 80% no-repeat, center;
+    background: url('assets/wedding-photo.jpg') 80% no-repeat, center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -52,7 +52,7 @@
   
   @media (min-width: 480px) {
     .cover {
-      background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+      background: url('assets/wedding-photo.jpg') no-repeat center/cover;
     }
   }
     
