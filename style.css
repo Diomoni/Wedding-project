@@ -192,72 +192,80 @@
 
   .container {
     width: 100vw;
-  }
+}
 
-  @media (min-width: 480px) {
-    .container {
-      width: 100%;
-    }
+@media (min-width: 480px) {
+ 
+  .container {
+    width: 100%;
   }
+}
 
-  .questions-and-answers {
-    width: 100%;
-    background: hsla(100,0%,0%,.6);
-    text-align: center;
-    color: #EEE8AA;
-  }
-    
-  .questions-and-answers p {
-    font-family: 'Muli';
-    text-align: left;
-  }
-    
-  .questions-and-answers hr {
-    width: 100%;
-    color: #EEE8AA;
-    border: none;
-    background-color: #EEE8AA;
-    height: 1px;
+.questions-and-answers {
+  width: 100%;
+  background: hsla(100,0%,0%,.6);
+  text-align: center;
+  color: #EEE8AA;
+}
+  
+.questions-and-answers p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+  
+.questions-and-answers hr {
+  width: 100%;
+  color: #EEE8AA;
+  border: none;
+  background-color: #EEE8AA;
+  height: 1px;
+}
+
+.questions-and-answers hr::after {
+  width: 100%;
+  color: #EEE8AA;
+  border: none;
+  background-color: #EEE8AA;
+  height: 1px;
+}
+ 
+.questions {
+  font-weight: 800;
+}
+  
+.answer {
+  margin-bottom: 1rem;
+}
+  
+@media (min-width: 480px) {
+  
+  .all-q-a {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
   }
   
-  .questions-and-answers hr::after {
-    width: 100%;
-    color: #EEE8AA;
-    border: none;
-    background-color: #EEE8AA;
-    height: 1px;
+  .all-q-a h4 {
+    text-align: left;
   }
-   
-  .questions {
+  
+  .question {
     font-weight: 800;
+    margin-bottom: .5rem;
   }
-    
+  
   .answer {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
-    
-  @media (min-width: 480px) {
-    
-    .all-q-a {
-      display: inline-block;
-      width: 30%;
-      vertical-align: top;
-      padding: 1.5rem;
-      margin: .5rem;
-    }
-    
-    .all-q-a h4 {
-      text-align: left;
-    }
-    
-    .question {
-      font-weight: 800;
-      margin-bottom: .5rem;
-    }
-    
-    .answer {
-      margin-bottom: 1.5rem;
-    }
+}
+  
+  /* == Contact Styles == */
+  
+  .contact p {
+    font-family: 'Muli'; 
+    font-size: 1rem;
   }
   
   /* == Contact Styles == */
