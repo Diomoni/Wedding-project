@@ -83,7 +83,7 @@
     }
     
     .text h1 {
-      font-size: 5 rem;
+      font-size: 5rem;
     }
   }
   
@@ -143,8 +143,6 @@
   
   /* == Programs Styles == */
   
-  /* == Programs Styles == */
-  
   .programs h2 {
     letter-spacing: .1rem;
     text-align: center;
@@ -191,27 +189,29 @@
   }
   
   /* == Questions and Answers Styles == */
-  
-  .questions-and-answers {
+
+  .container {
     width: 100vw;
+  }
+
+  @media (min-width: 480px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+  .questions-and-answers {
+    width: 100%;
     background: hsla(100,0%,0%,.6);
     text-align: center;
     color: #EEE8AA;
   }
-  
+    
   .questions-and-answers p {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli';
     text-align: left;
   }
-  
-  .all-q-a {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    padding: 1.5rem;
-    margin: 0.5rem;
-  }
-  
+    
   .questions-and-answers hr {
     width: 100%;
     color: #EEE8AA;
@@ -220,16 +220,24 @@
     height: 1px;
   }
   
+  .questions-and-answers hr::after {
+    width: 100%;
+    color: #EEE8AA;
+    border: none;
+    background-color: #EEE8AA;
+    height: 1px;
+  }
+   
   .questions {
     font-weight: 800;
   }
-  
+    
   .answer {
     margin-bottom: 1rem;
   }
-  
+    
   @media (min-width: 480px) {
-  
+    
     .all-q-a {
       display: inline-block;
       width: 30%;
@@ -237,24 +245,19 @@
       padding: 1.5rem;
       margin: .5rem;
     }
-  
-    .all-q-a::after {
-      display: none;
-    }
-  
+    
     .all-q-a h4 {
       text-align: left;
     }
-  
-  }
-  
-  .question {
-    font-weight: 700;
-    margin-bottom: .5rem;
-  }
-  
-  .answer {
-    margin-bottom: 1.5rem;
+    
+    .question {
+      font-weight: 800;
+      margin-bottom: .5rem;
+    }
+    
+    .answer {
+      margin-bottom: 1.5rem;
+    }
   }
   
   /* == Contact Styles == */
